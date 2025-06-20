@@ -1,0 +1,3 @@
+FROM luatoolz/nginx
+ARG SOURCE_DATE_EPOCH=${SOURCE_DATE_EPOCH:-0}
+ADD . /
